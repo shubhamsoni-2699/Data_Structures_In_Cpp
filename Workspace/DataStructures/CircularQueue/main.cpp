@@ -47,6 +47,19 @@ public:
         cout<<endl;
     }
     
+    bool isFull(){
+        if ( (rear + 1 )%size == front ){
+            return true;
+        }
+        return false;
+    }
+    
+    bool isEmpty(){
+        if(rear==front){
+            return true;
+        }
+        return false;
+    }
 };
 
 
@@ -69,6 +82,8 @@ int main(){
     cq.dequeue();
     cq.enqueue(9);
     
+    
+    cout<<cq.isFull()<<endl;
     cq.Display();
 	return 0;
 }
