@@ -1,0 +1,9 @@
+-I/home/mr2608/Programming/C++/Workspace/DataStructures/CircularQueue
+-I/usr/include/c++/12
+-I/usr/include/c++/12/x86_64-redhat-linux
+-I/usr/include/c++/12/backward
+-I/usr/lib/gcc/x86_64-redhat-linux/12/include
+-I/usr/local/include
+-I/usr/include
+-target
+x86_64-redhat-linux
